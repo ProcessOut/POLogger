@@ -22,7 +22,7 @@ pod "POSLogger"
 
 ## Author
 
-Jeremy Lejoux, jeremy.lejoux@epita.fr
+Jeremy Lejoux, jeremy@processout.com
 
 ## License
 
