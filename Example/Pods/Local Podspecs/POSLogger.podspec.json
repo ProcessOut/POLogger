@@ -1,22 +1,26 @@
 {
   "name": "POSLogger",
   "version": "0.1.0",
-  "summary": "A short description of POSLogger.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/POSLogger",
+  "summary": "Logger tool for test suites.",
+  "description": "Allows you to log properly on the console.",
+  "homepage": "https://github.com/ProcessOut/POSLogger",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Jeremy Lejoux": "jeremy.lejoux@epita.fr"
+    "Jeremy Lejoux": "jeremy@processout.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/POSLogger.git",
+    "git": "https://github.com/ProcessOut/POSLogger.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "POSLogger/Classes/**/*"
+  "source_files": "POSLogger/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
 }

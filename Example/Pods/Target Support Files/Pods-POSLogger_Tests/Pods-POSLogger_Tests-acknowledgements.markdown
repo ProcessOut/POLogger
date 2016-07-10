@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## POSLogger
 
-Copyright (c) 2016 Jeremy Lejoux <jeremy.lejoux@epita.fr>
+Copyright (c) 2016 Jeremy Lejoux <jeremy@processout.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BD4EFCAC6A34962F70C00469514B2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A802960E0B0BEFC730BF922A79EB9D /* Foundation.framework */; };
 		08B03261144DDA2DBB9AD0CC5FC7ABA2 /* Pods-POSLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED7AFBEAC9D7C1C017DD437153D5021 /* Pods-POSLogger_Tests-dummy.m */; };
-		0FE257C405047CA9D73B3466D67FE14C /* POSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA3D8E4AC245BB5D09A50546EDF185F /* POSLogger-dummy.m */; };
-		66829CE31A32D6C79BF345B59DA6C317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2C22750B82227343A245F07FF92BC708 /* POSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5245D73491FC40A2719179B6F60691DB /* POSLogger.swift */; };
+		475709A643F60E0406334453A6FD8AF2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C2C292DF1ADE71F8EFBB9DD0264C19 /* MapKit.framework */; };
+		66829CE31A32D6C79BF345B59DA6C317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A802960E0B0BEFC730BF922A79EB9D /* Foundation.framework */; };
 		68F851BE9DA52B892C7F66335CE3AF41 /* POSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D382221CB8282C3B87ED999F67E3194E /* POSLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		766E46C57CB7E534B798ECCF15E9737E /* Pods-POSLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC4C527B05F4FA3D80E396C9E045BED /* Pods-POSLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A8A17E4185CF11B0A0F918E2054C61A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB55D61B43DC1935E8A44DFC1FE9381 /* ReplaceMe.swift */; };
-		C838050C2B5A90205167DD57441A88B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7FE7FB1FBC7C93BACE8C488C7C45B02C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD80B54D695682128D73D51D94D7191 /* UIKit.framework */; };
+		A8919EF5A0A36903D10DF9F69C3FFFF0 /* POSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA3D8E4AC245BB5D09A50546EDF185F /* POSLogger-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +36,19 @@
 		270E78AFAD6E2DC802E1D3BFD837ABB6 /* Pods-POSLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-POSLogger_Tests.modulemap"; sourceTree = "<group>"; };
 		319F98EAD180521483DC1AAECD4EBC1A /* POSLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POSLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		498F751EEAC3C1F5CCD642DB6D81D1B7 /* Pods-POSLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POSLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5245D73491FC40A2719179B6F60691DB /* POSLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = POSLogger.swift; sourceTree = "<group>"; };
 		879A50FF067A2E41A4622DD7191B1413 /* Pods-POSLogger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-POSLogger_Tests-resources.sh"; sourceTree = "<group>"; };
 		8B46C03BFCBD658009E27382F49FC24F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D94AE9A5A99872B715023001B21225C /* POSLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = POSLogger.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94FB8E7D1DAB2A38DB8393C6669A7D1A /* POSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = POSLogger.modulemap; sourceTree = "<group>"; };
-		9AB55D61B43DC1935E8A44DFC1FE9381 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		95C2C292DF1ADE71F8EFBB9DD0264C19 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		B0D2394298A8A99EACA92CA3E26BC0F3 /* Pods-POSLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POSLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D382221CB8282C3B87ED999F67E3194E /* POSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POSLogger-umbrella.h"; sourceTree = "<group>"; };
+		DCD80B54D695682128D73D51D94D7191 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DDD987718CA751F60D58E9020BD3CD6C /* Pods-POSLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-POSLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DF1CD01AF615B303A803039E7D63FBEB /* Pods-POSLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POSLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4A802960E0B0BEFC730BF922A79EB9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F91821D80CCA70E58F09F217F93C2F8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBA3D8E4AC245BB5D09A50546EDF185F /* POSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "POSLogger-dummy.m"; sourceTree = "<group>"; };
 		FD3920A0475A881ADBD3706BA30F9D93 /* POSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POSLogger-prefix.pch"; sourceTree = "<group>"; };
@@ -59,11 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF9C2BFADFC94A762EE83DB61D67C0CE /* Frameworks */ = {
+		BC7546C4FD4FDEC7B7BA530DBB3AE2AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C838050C2B5A90205167DD57441A88B9 /* Foundation.framework in Frameworks */,
+				01BD4EFCAC6A34962F70C00469514B2E /* Foundation.framework in Frameworks */,
+				475709A643F60E0406334453A6FD8AF2 /* MapKit.framework in Frameworks */,
+				7FE7FB1FBC7C93BACE8C488C7C45B02C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +79,7 @@
 		09433882167DB9335542C7DADC5CC956 /* POSLogger */ = {
 			isa = PBXGroup;
 			children = (
-				91B0E6EDC59FEB49128CF466F5FDC968 /* Classes */,
+				C49C2770363FC9B9D0709724349C9E99 /* Classes */,
 			);
 			path = POSLogger;
 			sourceTree = "<group>";
@@ -86,6 +92,14 @@
 			);
 			name = POSLogger;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEAB14AF1CE54844D813AA1E12EF5C4D /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		259033D2FC7B5E7CA087C45EBF795727 /* Targets Support Files */ = {
@@ -102,14 +116,6 @@
 				0DCC3DE0831710B0F99F752D0F709958 /* POSLogger */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		460E474E2FFF20A0370A4DC2F9977123 /* Support Files */ = {
@@ -149,18 +155,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				28F12EDD1825BEFBF1E4677596A16EDD /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				AFCF15139C99E2A2649BB07B45702DCA /* Products */,
 				259033D2FC7B5E7CA087C45EBF795727 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		91B0E6EDC59FEB49128CF466F5FDC968 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9AB55D61B43DC1935E8A44DFC1FE9381 /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		AFCF15139C99E2A2649BB07B45702DCA /* Products */ = {
@@ -172,12 +170,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C49C2770363FC9B9D0709724349C9E99 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				5245D73491FC40A2719179B6F60691DB /* POSLogger.swift */,
 			);
-			name = Frameworks;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FEAB14AF1CE54844D813AA1E12EF5C4D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E4A802960E0B0BEFC730BF922A79EB9D /* Foundation.framework */,
+				95C2C292DF1ADE71F8EFBB9DD0264C19 /* MapKit.framework */,
+				DCD80B54D695682128D73D51D94D7191 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +232,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48E29B16DD7DBA8DA118E4DF38F32F46 /* Build configuration list for PBXNativeTarget "POSLogger" */;
 			buildPhases = (
-				E369956B270EDB86B4DF1D4B7BFD8C17 /* Sources */,
-				FF9C2BFADFC94A762EE83DB61D67C0CE /* Frameworks */,
+				BDF76CD79C15556F6B4247F369DE261C /* Sources */,
+				BC7546C4FD4FDEC7B7BA530DBB3AE2AD /* Frameworks */,
 				E6A12DF9F902989D37ACC6C40BF2FED9 /* Headers */,
 			);
 			buildRules = (
@@ -273,12 +281,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E369956B270EDB86B4DF1D4B7BFD8C17 /* Sources */ = {
+		BDF76CD79C15556F6B4247F369DE261C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE257C405047CA9D73B3466D67FE14C /* POSLogger-dummy.m in Sources */,
-				7A8A17E4185CF11B0A0F918E2054C61A /* ReplaceMe.swift in Sources */,
+				A8919EF5A0A36903D10DF9F69C3FFFF0 /* POSLogger-dummy.m in Sources */,
+				2C22750B82227343A245F07FF92BC708 /* POSLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
