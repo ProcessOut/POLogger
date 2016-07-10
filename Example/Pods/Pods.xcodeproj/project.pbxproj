@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B03261144DDA2DBB9AD0CC5FC7ABA2 /* Pods-POSLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED7AFBEAC9D7C1C017DD437153D5021 /* Pods-POSLogger_Tests-dummy.m */; };
+		0FE257C405047CA9D73B3466D67FE14C /* POSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA3D8E4AC245BB5D09A50546EDF185F /* POSLogger-dummy.m */; };
+		66829CE31A32D6C79BF345B59DA6C317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		68F851BE9DA52B892C7F66335CE3AF41 /* POSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D382221CB8282C3B87ED999F67E3194E /* POSLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766E46C57CB7E534B798ECCF15E9737E /* Pods-POSLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC4C527B05F4FA3D80E396C9E045BED /* Pods-POSLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A8A17E4185CF11B0A0F918E2054C61A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB55D61B43DC1935E8A44DFC1FE9381 /* ReplaceMe.swift */; };
+		C838050C2B5A90205167DD57441A88B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		609262B5750CC3AA63435A8A5382A140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62DDB3E3A27AAB3CFB117B91ABF2200D;
+			remoteInfo = POSLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BE200878441A071EA3E7D924D358D6 /* Pods-POSLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-POSLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0337A4056CF68BAC4A1C5C7B5BBA6E3F /* Pods_POSLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POSLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC4C527B05F4FA3D80E396C9E045BED /* Pods-POSLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-POSLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1ED7AFBEAC9D7C1C017DD437153D5021 /* Pods-POSLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-POSLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+		270E78AFAD6E2DC802E1D3BFD837ABB6 /* Pods-POSLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-POSLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		319F98EAD180521483DC1AAECD4EBC1A /* POSLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POSLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		498F751EEAC3C1F5CCD642DB6D81D1B7 /* Pods-POSLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POSLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		879A50FF067A2E41A4622DD7191B1413 /* Pods-POSLogger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-POSLogger_Tests-resources.sh"; sourceTree = "<group>"; };
+		8B46C03BFCBD658009E27382F49FC24F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D94AE9A5A99872B715023001B21225C /* POSLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = POSLogger.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94FB8E7D1DAB2A38DB8393C6669A7D1A /* POSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = POSLogger.modulemap; sourceTree = "<group>"; };
+		9AB55D61B43DC1935E8A44DFC1FE9381 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		B0D2394298A8A99EACA92CA3E26BC0F3 /* Pods-POSLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POSLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D382221CB8282C3B87ED999F67E3194E /* POSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POSLogger-umbrella.h"; sourceTree = "<group>"; };
+		DDD987718CA751F60D58E9020BD3CD6C /* Pods-POSLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-POSLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DF1CD01AF615B303A803039E7D63FBEB /* Pods-POSLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POSLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F91821D80CCA70E58F09F217F93C2F8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA3D8E4AC245BB5D09A50546EDF185F /* POSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "POSLogger-dummy.m"; sourceTree = "<group>"; };
+		FD3920A0475A881ADBD3706BA30F9D93 /* POSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POSLogger-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42977645CDC512517D463F43B517D6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66829CE31A32D6C79BF345B59DA6C317 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9C2BFADFC94A762EE83DB61D67C0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C838050C2B5A90205167DD57441A88B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09433882167DB9335542C7DADC5CC956 /* POSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				91B0E6EDC59FEB49128CF466F5FDC968 /* Classes */,
+			);
+			path = POSLogger;
+			sourceTree = "<group>";
+		};
+		0DCC3DE0831710B0F99F752D0F709958 /* POSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				09433882167DB9335542C7DADC5CC956 /* POSLogger */,
+				460E474E2FFF20A0370A4DC2F9977123 /* Support Files */,
+			);
+			name = POSLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		259033D2FC7B5E7CA087C45EBF795727 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7248AD432155B3C3A9A52B1DDE9F7556 /* Pods-POSLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		28F12EDD1825BEFBF1E4677596A16EDD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DCC3DE0831710B0F99F752D0F709958 /* POSLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		460E474E2FFF20A0370A4DC2F9977123 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F91821D80CCA70E58F09F217F93C2F8A /* Info.plist */,
+				94FB8E7D1DAB2A38DB8393C6669A7D1A /* POSLogger.modulemap */,
+				8D94AE9A5A99872B715023001B21225C /* POSLogger.xcconfig */,
+				FBA3D8E4AC245BB5D09A50546EDF185F /* POSLogger-dummy.m */,
+				FD3920A0475A881ADBD3706BA30F9D93 /* POSLogger-prefix.pch */,
+				D382221CB8282C3B87ED999F67E3194E /* POSLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/POSLogger";
+			sourceTree = "<group>";
+		};
+		7248AD432155B3C3A9A52B1DDE9F7556 /* Pods-POSLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8B46C03BFCBD658009E27382F49FC24F /* Info.plist */,
+				270E78AFAD6E2DC802E1D3BFD837ABB6 /* Pods-POSLogger_Tests.modulemap */,
+				02BE200878441A071EA3E7D924D358D6 /* Pods-POSLogger_Tests-acknowledgements.markdown */,
+				DF1CD01AF615B303A803039E7D63FBEB /* Pods-POSLogger_Tests-acknowledgements.plist */,
+				1ED7AFBEAC9D7C1C017DD437153D5021 /* Pods-POSLogger_Tests-dummy.m */,
+				DDD987718CA751F60D58E9020BD3CD6C /* Pods-POSLogger_Tests-frameworks.sh */,
+				879A50FF067A2E41A4622DD7191B1413 /* Pods-POSLogger_Tests-resources.sh */,
+				1BC4C527B05F4FA3D80E396C9E045BED /* Pods-POSLogger_Tests-umbrella.h */,
+				498F751EEAC3C1F5CCD642DB6D81D1B7 /* Pods-POSLogger_Tests.debug.xcconfig */,
+				B0D2394298A8A99EACA92CA3E26BC0F3 /* Pods-POSLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-POSLogger_Tests";
+			path = "Target Support Files/Pods-POSLogger_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				28F12EDD1825BEFBF1E4677596A16EDD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AFCF15139C99E2A2649BB07B45702DCA /* Products */,
+				259033D2FC7B5E7CA087C45EBF795727 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91B0E6EDC59FEB49128CF466F5FDC968 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9AB55D61B43DC1935E8A44DFC1FE9381 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AFCF15139C99E2A2649BB07B45702DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0337A4056CF68BAC4A1C5C7B5BBA6E3F /* Pods_POSLogger_Tests.framework */,
+				319F98EAD180521483DC1AAECD4EBC1A /* POSLogger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7CF9AE3398A1F5A6F84128041BEA846A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766E46C57CB7E534B798ECCF15E9737E /* Pods-POSLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A12DF9F902989D37ACC6C40BF2FED9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F851BE9DA52B892C7F66335CE3AF41 /* POSLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01414527BE7875BE29CF0442DE306F62 /* Pods-POSLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D238613403C5F9D9C5307B4D7E9841 /* Build configuration list for PBXNativeTarget "Pods-POSLogger_Tests" */;
+			buildPhases = (
+				2FECD64B605FDB460E0A0CCC3580CDB4 /* Sources */,
+				42977645CDC512517D463F43B517D6F3 /* Frameworks */,
+				7CF9AE3398A1F5A6F84128041BEA846A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA0E486FFAE2352AE1190C938A04778 /* PBXTargetDependency */,
+			);
+			name = "Pods-POSLogger_Tests";
+			productName = "Pods-POSLogger_Tests";
+			productReference = 0337A4056CF68BAC4A1C5C7B5BBA6E3F /* Pods_POSLogger_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62DDB3E3A27AAB3CFB117B91ABF2200D /* POSLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E29B16DD7DBA8DA118E4DF38F32F46 /* Build configuration list for PBXNativeTarget "POSLogger" */;
+			buildPhases = (
+				E369956B270EDB86B4DF1D4B7BFD8C17 /* Sources */,
+				FF9C2BFADFC94A762EE83DB61D67C0CE /* Frameworks */,
+				E6A12DF9F902989D37ACC6C40BF2FED9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSLogger;
+			productName = POSLogger;
+			productReference = 319F98EAD180521483DC1AAECD4EBC1A /* POSLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AFCF15139C99E2A2649BB07B45702DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01414527BE7875BE29CF0442DE306F62 /* Pods-POSLogger_Tests */,
+				62DDB3E3A27AAB3CFB117B91ABF2200D /* POSLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FECD64B605FDB460E0A0CCC3580CDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B03261144DDA2DBB9AD0CC5FC7ABA2 /* Pods-POSLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E369956B270EDB86B4DF1D4B7BFD8C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE257C405047CA9D73B3466D67FE14C /* POSLogger-dummy.m in Sources */,
+				7A8A17E4185CF11B0A0F918E2054C61A /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CA0E486FFAE2352AE1190C938A04778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = POSLogger;
+			target = 62DDB3E3A27AAB3CFB117B91ABF2200D /* POSLogger */;
+			targetProxy = 609262B5750CC3AA63435A8A5382A140 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219A909F77C6C16F39C3C884A419BA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D94AE9A5A99872B715023001B21225C /* POSLogger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/POSLogger/POSLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/POSLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/POSLogger/POSLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = POSLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50D1ABF7C1716CE34D5EF956E8BCF74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498F751EEAC3C1F5CCD642DB6D81D1B7 /* Pods-POSLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-POSLogger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-POSLogger_Tests/Pods-POSLogger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_POSLogger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E86D4A839FD92274229DF394E067D182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D94AE9A5A99872B715023001B21225C /* POSLogger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/POSLogger/POSLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/POSLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/POSLogger/POSLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = POSLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB7D2675E54CFAD9D4D119A4C68BC1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D2394298A8A99EACA92CA3E26BC0F3 /* Pods-POSLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-POSLogger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-POSLogger_Tests/Pods-POSLogger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_POSLogger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E29B16DD7DBA8DA118E4DF38F32F46 /* Build configuration list for PBXNativeTarget "POSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219A909F77C6C16F39C3C884A419BA93 /* Debug */,
+				E86D4A839FD92274229DF394E067D182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D238613403C5F9D9C5307B4D7E9841 /* Build configuration list for PBXNativeTarget "Pods-POSLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D1ABF7C1716CE34D5EF956E8BCF74B /* Debug */,
+				EB7D2675E54CFAD9D4D119A4C68BC1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

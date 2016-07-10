@@ -1,0 +1,22 @@
+{
+  "name": "POSLogger",
+  "version": "0.1.0",
+  "summary": "A short description of POSLogger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/POSLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jeremy Lejoux": "jeremy.lejoux@epita.fr"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/POSLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "POSLogger/Classes/**/*"
+}

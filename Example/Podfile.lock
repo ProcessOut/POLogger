@@ -1,0 +1,16 @@
+PODS:
+  - POSLogger (0.1.0)
+
+DEPENDENCIES:
+  - POSLogger (from `../`)
+
+EXTERNAL SOURCES:
+  POSLogger:
+    :path: ../
+
+SPEC CHECKSUMS:
+  POSLogger: e6732ef0676982b35a2117ad3d0a07dc134ec4e7
+
+PODFILE CHECKSUM: 34fbf644dac2f1869b0d6898fa4fab43870a123b
+
+COCOAPODS: 1.0.1
