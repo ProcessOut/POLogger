@@ -1,0 +1,6 @@
+use_frameworks!
+target 'POSLogger_Tests' do
+  pod 'POSLogger', :path => '../'
+  
+  
+end
