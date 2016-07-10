@@ -10,10 +10,12 @@ import Foundation
 
 public class POSLogger {
     
-    private static var lineLenght = 70
+    public static var lineLenght = 70
     private static var padding = 5
     
     public class func StartLogBlock(name: String) {
+        
+        drawLine()
         
         printLine("")
         printLine("")
@@ -33,17 +35,19 @@ public class POSLogger {
         print("#")
         
         printLine("")
+        printLine("")
         drawLine()
     }
     
     public class func Log(title: String, message: String) {
         let lines = message.splitByLength(lineLenght - 2 - padding)
-        
         printTitle(title)
         
         for line in lines {
             printLine(line)
         }
+        printLine("")
+        printLine("")
     }
     
     private class func printTitle(title: String) {
@@ -72,6 +76,8 @@ public class POSLogger {
     public class func EndLogBlock() {
         printLine("")
         drawLine()
+        print("")
+        print("")
     }
     
     private class func drawLine() {
