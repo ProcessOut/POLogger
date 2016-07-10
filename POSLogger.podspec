@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Allows you to log properly on the console.
                        DESC
 
-  s.homepage         = 'https://github.com/ProcessOut/POSLogger'
+  s.homepage         = 'https://processout.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jeremy Lejoux' => 'jeremy@processout.com' }
